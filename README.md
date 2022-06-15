@@ -1,2 +1,2 @@
-# mybatis-plus
+# Mybatis Plus
 learning MyBatis Plus
