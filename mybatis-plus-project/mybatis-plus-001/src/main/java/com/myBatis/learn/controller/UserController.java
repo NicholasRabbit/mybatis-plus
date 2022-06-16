@@ -20,6 +20,8 @@ public class UserController {
     @GetMapping(value = "/list")
     @ResponseBody
     public List<User> get(User user){
+        //这里最终调用的是MyBastisPlus自带BaseMapper里的方法 ： List<T> selectList(@Param("ew") Wrapper<T> queryWrapper);
+        //如果为空，则查询全部
         return userService.selectList(null);
     }
 }

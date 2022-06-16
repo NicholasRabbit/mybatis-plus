@@ -12,3 +12,8 @@ spring:
     url: jdbc:mysql://localhost:3306/mybatis-plus?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: 123456
+
+#设置MyBatisPlus的日志打印sql语句的功能
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #这里引入slf4j不打印，后期待分析
