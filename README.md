@@ -1,2 +1,5 @@
 # Mybatis Plus
-Learning MyBatis Plus
+Learning MyBatis Plus.
+
+Never compromise.
+
